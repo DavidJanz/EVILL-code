@@ -71,5 +71,6 @@ if __name__ == '__main__':
     x_vals = np.array(list(range(args.interval, args.n + 1, args.interval)))
     data = {'MLE': results_mle, 'PHE': results_phe, 'EVILL': results_evill, 'x_values': x_vals}
 
+    
     if args.output_name:
         np.savez(f'results/{args.output_name}.npz', data)
