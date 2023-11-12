@@ -37,3 +37,4 @@ python3 run_rayleigh_estimation_experiment.py --output_name rayleigh_estimation
 python3 run_rayleigh_bandit_experiment.py --output_name rayleigh_bandit
 ```
 
+Now, run `jupyter notebook`, open `evill_plots.ipynb` and `run all` to generate the plots. These will be displayed in the notebook as well as saved in the code directory as `.pdf` files. 
