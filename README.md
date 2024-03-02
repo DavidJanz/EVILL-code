@@ -2,7 +2,7 @@
 
 The code in this repository can be used to reproduce the experimental results featuring in Figure 1 and Figure 2 of our paper,
 
-> Janz, David, Shuai Liu, Alex Ayoub, and Csaba Szepesvári. “Exploration via linearly perturbed loss minimisation”. In: arxiv (to appear) (2023).
+> Janz, David, Shuai Liu, Alex Ayoub, and Csaba Szepesvári, 'Exploration via linear loss perturbations', AISTATS, 2024.
 
 All these scripts write `.npz` files to the `results` folder. The included jupyter notebook, `evill_plots.ipynb`, may then be used to recreate the plots in the paper. First, however, we need create a `venv` and install the requisite packages. For this, run:
 ```
